@@ -1,0 +1,308 @@
+2025-04-07T15:06:13.733+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-07T15:06:13.749+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@_failover.
+2025-04-07T15:06:13.749+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-f68d03e2-d4c5-4012-8dd1-b4d1a5bab9cd)
+2025-04-07T15:06:13.749+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-07T15:06:13.749+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-07T15:06:13.749+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-07T15:06:13.749+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-f68d03e2-d4c5-4012-8dd1-b4d1a5bab9cd try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-07T15:06:13.749+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-07T15:06:13.749+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-07T15:06:13.749+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-07T15:06:13.773+0800	INFO	util/common.go:96	Local IP:10.123.3.24
+2025-04-07T15:06:13.988+0800	INFO	rpc/rpc_client.go:337	config-0-f68d03e2-d4c5-4012-8dd1-b4d1a5bab9cd success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744009574117_117.143.60.138_63815
+2025-04-07T15:07:04.318+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-07T15:07:04.335+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@likeshop_failover.
+2025-04-07T15:07:04.335+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-f89179f1-7e44-4770-b745-ad5c26cd21ff)
+2025-04-07T15:07:04.335+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-07T15:07:04.335+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-07T15:07:04.335+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-07T15:07:04.335+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-f89179f1-7e44-4770-b745-ad5c26cd21ff try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-07T15:07:04.335+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-07T15:07:04.335+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-07T15:07:04.335+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-07T15:07:04.359+0800	INFO	util/common.go:96	Local IP:10.123.3.24
+2025-04-07T15:07:04.475+0800	INFO	rpc/rpc_client.go:337	config-0-f89179f1-7e44-4770-b745-ad5c26cd21ff success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744009624671_117.143.60.138_64001
+2025-04-07T15:07:04.490+0800	WARN	rpc/rpc_client.go:613	ConfigQueryRequest request received fail response, error code: 300, result code: 500, message: [config data not exist]
+2025-04-07T15:07:54.181+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-07T15:07:54.196+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@likeshop_failover.
+2025-04-07T15:07:54.196+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-5ebd3e45-380d-4a9d-abd8-50e0a6e42de4)
+2025-04-07T15:07:54.196+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-07T15:07:54.196+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-07T15:07:54.196+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-07T15:07:54.196+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-5ebd3e45-380d-4a9d-abd8-50e0a6e42de4 try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-07T15:07:54.196+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-07T15:07:54.196+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-07T15:07:54.196+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-07T15:07:54.221+0800	INFO	util/common.go:96	Local IP:10.123.3.24
+2025-04-07T15:07:54.407+0800	INFO	rpc/rpc_client.go:337	config-0-5ebd3e45-380d-4a9d-abd8-50e0a6e42de4 success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744009674618_117.143.60.138_64222
+2025-04-07T15:07:54.417+0800	WARN	rpc/rpc_client.go:613	ConfigQueryRequest request received fail response, error code: 300, result code: 500, message: [config data not exist]
+2025-04-07T15:08:15.938+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-07T15:08:15.953+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@likeshop_failover.
+2025-04-07T15:08:15.953+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-a0d2672b-a7f7-4fb0-bc05-2517a9c9adf8)
+2025-04-07T15:08:15.953+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-07T15:08:15.953+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-07T15:08:15.953+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-07T15:08:15.953+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-a0d2672b-a7f7-4fb0-bc05-2517a9c9adf8 try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-07T15:08:15.953+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-07T15:08:15.953+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-07T15:08:15.953+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-07T15:08:15.977+0800	INFO	util/common.go:96	Local IP:10.123.3.24
+2025-04-07T15:08:16.105+0800	INFO	rpc/rpc_client.go:337	config-0-a0d2672b-a7f7-4fb0-bc05-2517a9c9adf8 success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744009696288_117.143.60.138_64301
+2025-04-07T15:08:16.125+0800	WARN	rpc/rpc_client.go:613	ConfigQueryRequest request received fail response, error code: 300, result code: 500, message: [config data not exist]
+2025-04-07T15:08:41.733+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-07T15:08:41.747+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@_failover.
+2025-04-07T15:08:41.747+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-766f1b0a-bc80-4d6c-bc2b-08bb4239faad)
+2025-04-07T15:08:41.747+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-07T15:08:41.747+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-07T15:08:41.747+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-07T15:08:41.747+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-766f1b0a-bc80-4d6c-bc2b-08bb4239faad try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-07T15:08:41.747+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-07T15:08:41.747+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-07T15:08:41.747+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-07T15:08:41.771+0800	INFO	util/common.go:96	Local IP:10.123.3.24
+2025-04-07T15:08:41.886+0800	INFO	rpc/rpc_client.go:337	config-0-766f1b0a-bc80-4d6c-bc2b-08bb4239faad success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744009722084_117.143.60.138_64380
+2025-04-07T15:13:06.596+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-07T15:13:06.613+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@_failover.
+2025-04-07T15:13:06.613+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-e0963cef-ba2b-416e-b327-078439cc5cfd)
+2025-04-07T15:13:06.614+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-07T15:13:06.614+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-07T15:13:06.614+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-07T15:13:06.614+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-e0963cef-ba2b-416e-b327-078439cc5cfd try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-07T15:13:06.614+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-07T15:13:06.614+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-07T15:13:06.614+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-07T15:13:06.640+0800	INFO	util/common.go:96	Local IP:10.123.3.24
+2025-04-07T15:13:06.752+0800	INFO	rpc/rpc_client.go:337	config-0-e0963cef-ba2b-416e-b327-078439cc5cfd success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744009986958_117.143.60.138_64500
+2025-04-07T15:13:20.128+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-07T15:13:20.142+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@_failover.
+2025-04-07T15:13:20.142+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-654eab8c-bf20-4150-b2aa-c802ee908a03)
+2025-04-07T15:13:20.142+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-07T15:13:20.142+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-07T15:13:20.142+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-07T15:13:20.142+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-654eab8c-bf20-4150-b2aa-c802ee908a03 try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-07T15:13:20.142+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-07T15:13:20.142+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-07T15:13:20.142+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-07T15:13:20.167+0800	INFO	util/common.go:96	Local IP:10.123.3.24
+2025-04-07T15:13:20.440+0800	INFO	rpc/rpc_client.go:337	config-0-654eab8c-bf20-4150-b2aa-c802ee908a03 success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744010000643_117.143.60.138_64538
+2025-04-07T15:31:51.032+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-07T15:31:51.047+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@_failover.
+2025-04-07T15:31:51.047+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-f57f1f33-2b26-42ec-9b6f-3fd147886a43)
+2025-04-07T15:31:51.047+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-07T15:31:51.047+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-07T15:31:51.047+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-07T15:31:51.047+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-f57f1f33-2b26-42ec-9b6f-3fd147886a43 try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-07T15:31:51.047+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-07T15:31:51.047+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-07T15:31:51.047+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-07T15:31:51.069+0800	INFO	util/common.go:96	Local IP:10.123.3.24
+2025-04-07T15:31:51.203+0800	INFO	rpc/rpc_client.go:337	config-0-f57f1f33-2b26-42ec-9b6f-3fd147886a43 success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744011111402_117.143.60.138_49179
+2025-04-07T15:51:29.267+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-07T15:51:29.282+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@bcdc858d-5542-453c-bb9b-88829c378dc8_failover.
+2025-04-07T15:51:29.282+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-ed02e896-64da-4bfc-a7b2-b16d48b25773)
+2025-04-07T15:51:29.282+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-07T15:51:29.282+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-07T15:51:29.282+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-07T15:51:29.282+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-ed02e896-64da-4bfc-a7b2-b16d48b25773 try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-07T15:51:29.282+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-07T15:51:29.282+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-07T15:51:29.282+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-07T15:51:29.305+0800	INFO	util/common.go:96	Local IP:169.254.74.128
+2025-04-07T15:51:29.607+0800	INFO	rpc/rpc_client.go:337	config-0-ed02e896-64da-4bfc-a7b2-b16d48b25773 success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744012289767_117.143.60.138_49760
+2025-04-07T15:51:29.618+0800	WARN	rpc/rpc_client.go:613	ConfigQueryRequest request received fail response, error code: 300, result code: 500, message: [config data not exist]
+2025-04-07T15:52:58.366+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-07T15:52:58.384+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@_failover.
+2025-04-07T15:52:58.385+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-147127b9-101f-4324-862a-48243bbe6bcc)
+2025-04-07T15:52:58.385+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-07T15:52:58.385+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-07T15:52:58.385+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-07T15:52:58.385+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-147127b9-101f-4324-862a-48243bbe6bcc try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-07T15:52:58.385+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-07T15:52:58.385+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-07T15:52:58.385+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-07T15:52:58.411+0800	INFO	util/common.go:96	Local IP:10.123.3.24
+2025-04-07T15:52:58.522+0800	INFO	rpc/rpc_client.go:337	config-0-147127b9-101f-4324-862a-48243bbe6bcc success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744012378754_117.143.60.138_49966
+2025-04-07T15:54:07.986+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-07T15:54:08.001+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@bcdc858d-5542-453c-bb9b-88829c378dc8_failover.
+2025-04-07T15:54:08.001+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-9700371b-690f-4430-bd72-d8b306a29524)
+2025-04-07T15:54:08.001+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-07T15:54:08.001+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-07T15:54:08.001+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-07T15:54:08.001+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-9700371b-690f-4430-bd72-d8b306a29524 try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-07T15:54:08.001+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-07T15:54:08.001+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-07T15:54:08.001+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-07T15:54:08.026+0800	INFO	util/common.go:96	Local IP:10.123.3.24
+2025-04-07T15:54:08.188+0800	INFO	rpc/rpc_client.go:337	config-0-9700371b-690f-4430-bd72-d8b306a29524 success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744012448412_117.143.60.138_50201
+2025-04-07T15:54:08.205+0800	WARN	rpc/rpc_client.go:613	ConfigQueryRequest request received fail response, error code: 300, result code: 500, message: [config data not exist]
+2025-04-07T15:55:17.297+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-07T15:55:17.315+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@_failover.
+2025-04-07T15:55:17.315+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-37ae6410-5f19-4003-975b-2eaec6dd523b)
+2025-04-07T15:55:17.315+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-07T15:55:17.315+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-07T15:55:17.315+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-07T15:55:17.315+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-37ae6410-5f19-4003-975b-2eaec6dd523b try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-07T15:55:17.315+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-07T15:55:17.315+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-07T15:55:17.315+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-07T15:55:17.342+0800	INFO	util/common.go:96	Local IP:10.123.3.24
+2025-04-07T15:55:17.451+0800	INFO	rpc/rpc_client.go:337	config-0-37ae6410-5f19-4003-975b-2eaec6dd523b success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744012517685_117.143.60.138_50316
+2025-04-08T14:18:39.889+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:18:39.908+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\likeshopconfig@@shop_nacos@@bcdc858d-5542-453c-bb9b-88829c378dc8_failover.
+2025-04-08T14:18:39.908+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-a40f9cfa-4380-4072-b467-fb8bf74ccc46)
+2025-04-08T14:18:39.908+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-08T14:18:39.908+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-08T14:18:39.908+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-08T14:18:39.908+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-a40f9cfa-4380-4072-b467-fb8bf74ccc46 try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-08T14:18:39.908+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-08T14:18:39.908+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-08T14:18:39.908+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-08T14:18:39.940+0800	INFO	util/common.go:96	Local IP:10.123.3.26
+2025-04-08T14:18:40.075+0800	INFO	rpc/rpc_client.go:337	config-0-a40f9cfa-4380-4072-b467-fb8bf74ccc46 success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744093120167_116.231.48.20_53182
+2025-04-08T14:18:40.092+0800	WARN	rpc/rpc_client.go:613	ConfigQueryRequest request received fail response, error code: 300, result code: 500, message: [config data not exist]
+2025-04-08T14:19:39.114+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:19:39.130+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\statstudy@@zg4@@bcdc858d-5542-453c-bb9b-88829c378dc8_failover.
+2025-04-08T14:19:39.130+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-4a627e52-653b-4fcc-80dc-e26e491d2c62)
+2025-04-08T14:19:39.130+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-08T14:19:39.130+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-08T14:19:39.130+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-08T14:19:39.130+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-4a627e52-653b-4fcc-80dc-e26e491d2c62 try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-08T14:19:39.130+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-08T14:19:39.130+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-08T14:19:39.130+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-08T14:19:39.157+0800	INFO	util/common.go:96	Local IP:10.123.3.26
+2025-04-08T14:19:39.378+0800	INFO	rpc/rpc_client.go:337	config-0-4a627e52-653b-4fcc-80dc-e26e491d2c62 success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744093179419_116.231.48.20_53334
+2025-04-08T14:27:49.679+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:27:49.696+0800	WARN	cache/disk_cache.go:193	read Config Content failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\statstudy@@zg4@@bcdc858d-5542-453c-bb9b-88829c378dc8_failover.
+2025-04-08T14:27:49.696+0800	INFO	rpc/rpc_client.go:157	init rpc client for name %!(EXTRA string=config-0-61441cdd-bfdc-4b22-a5bd-2f2165773d23)
+2025-04-08T14:27:49.696+0800	INFO	rpc/rpc_client.go:166	get app conn labels from client config map[] 
+2025-04-08T14:27:49.696+0800	INFO	rpc/rpc_client.go:168	get app conn labels from env map[] 
+2025-04-08T14:27:49.696+0800	INFO	rpc/rpc_client.go:171	final app conn labels : map[] 
+2025-04-08T14:27:49.696+0800	INFO	rpc/rpc_client.go:327	[RpcClient.Start] config-0-61441cdd-bfdc-4b22-a5bd-2f2165773d23 try to connect to server on start up, server: {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848}
+2025-04-08T14:27:49.696+0800	INFO	rpc/grpc_client.go:175	check tls config %!(EXTRA *constant.TLSConfig=&{false false false    })
+2025-04-08T14:27:49.696+0800	INFO	rpc/grpc_client.go:180	try to get tls config from env
+2025-04-08T14:27:49.696+0800	INFO	rpc/grpc_client.go:189	 tls config from env is not enable
+2025-04-08T14:27:49.732+0800	INFO	util/common.go:96	Local IP:10.123.3.26
+2025-04-08T14:27:49.848+0800	INFO	rpc/rpc_client.go:337	config-0-61441cdd-bfdc-4b22-a5bd-2f2165773d23 success to connect to server {serverIp:14.103.149.202 serverPort:8848 serverGrpcPort:9848} on start up, connectionId=1744093669940_116.231.48.20_55294
+2025-04-08T14:27:49.863+0800	WARN	cache/disk_cache.go:155	read cache file Config Encrypted Data Key failed. cause file doesn't exist, file path: ./tmp/nacos/cache\config\encrypted-data-key\statstudy@@zg4@@bcdc858d-5542-453c-bb9b-88829c378dc8.: file not exist
+2025-04-08T14:27:54.696+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:27:59.696+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:28:04.697+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:28:09.697+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:28:14.697+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:28:19.698+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:28:22.562+0800	INFO	config_client/config_proxy.go:195	config-0-61441cdd-bfdc-4b22-a5bd-2f2165773d23 [server-push] config changed. dataId=statstudy, group=zg4,tenant=bcdc858d-5542-453c-bb9b-88829c378dc8
+2025-04-08T14:28:24.698+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:28:29.698+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:28:34.698+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:28:39.699+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:28:44.699+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:28:49.699+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:28:54.699+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:28:59.700+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:29:04.700+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:29:09.700+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:29:14.701+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:29:19.701+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:29:24.701+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:29:29.701+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:29:34.702+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:29:39.702+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:29:44.702+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:29:49.703+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:29:54.703+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:29:59.703+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:30:04.704+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:30:09.704+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:30:14.704+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:30:19.705+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:30:24.705+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:30:29.705+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:30:34.706+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:30:39.706+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:30:44.706+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:30:49.706+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:30:54.706+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:30:59.707+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:31:04.707+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:31:09.707+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:31:14.707+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:31:19.707+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:31:24.708+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:31:29.708+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:31:34.708+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:31:39.709+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:31:44.709+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:31:49.709+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:31:54.710+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:31:59.710+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:32:04.710+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:32:09.710+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:32:14.711+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:32:19.711+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:32:24.711+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:32:29.711+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:32:34.712+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:32:39.712+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:32:44.713+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:32:49.713+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:32:54.713+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:32:59.713+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:33:04.714+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:33:09.714+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:33:14.714+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:33:19.714+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:33:24.715+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:33:29.715+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:33:34.716+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:33:39.716+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:33:44.716+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:33:49.716+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:33:54.716+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:33:59.717+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:34:04.717+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:34:09.717+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:34:14.718+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:34:19.718+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:34:24.719+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:34:29.719+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:34:34.719+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:34:39.720+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:34:44.720+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:34:49.721+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:34:54.721+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:34:59.721+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:35:04.722+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:35:09.722+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:35:14.723+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:35:19.723+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:35:24.723+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:35:29.724+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:35:34.724+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:35:39.725+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:35:44.725+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:35:49.726+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:35:54.726+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:35:59.726+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:36:04.727+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:36:09.727+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:36:14.727+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:36:19.727+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:36:24.728+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:36:29.731+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:36:34.733+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:36:39.733+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:36:44.734+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:36:49.734+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:36:54.734+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:36:59.735+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:37:04.735+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:37:09.735+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:37:14.736+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:37:19.736+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:37:24.736+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:37:29.737+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:37:34.737+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:37:39.737+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:37:44.737+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider
+2025-04-08T14:37:49.737+0800	ERROR	security/security_proxy.go:117	login in err:no matched provider

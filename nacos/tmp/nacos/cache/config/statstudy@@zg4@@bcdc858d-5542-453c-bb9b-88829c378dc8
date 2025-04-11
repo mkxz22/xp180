@@ -1,0 +1,18 @@
+{
+    "myslq":{
+        "User": "root",
+        "Password":"root",
+        "Host": "127.0.0.1",
+        "Port": 3306,
+        "Database": "day"
+    },
+    "redis":{
+         "Addr": "127.0.0.1:6379",
+         "Password": "",
+         "DB": 0   
+    },
+    "cousul":{
+        "user": "root"
+    }
+
+}
